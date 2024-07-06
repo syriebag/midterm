@@ -50,7 +50,7 @@ nav ul li img.search_icon{
 /* MAIN */
 .main_container{
     position: relative;
-    max-width: 1440px;
+    width: 100%;
     padding: 2em 3em;
 }
 .main_container img{
