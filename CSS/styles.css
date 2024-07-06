@@ -1,0 +1,150 @@
+/* SYMARIE BAGALSO DAID-105-05 07/05/2024 */
+/* CSS for midterm */
+
+*{
+    box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    color: #4d4d4d;
+    background: #fff;
+}
+
+/* NAVIGATION */
+nav{
+    display: block;
+    background-color: #fff;
+    padding: 1.3em 1.3em;
+}
+nav a{
+    padding: 10px 10px;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav a:hover{
+    background: #fff1ee;
+}
+nav img.logo{
+    width: 8%;
+    float: left;
+    padding: 0 0 20px 0;
+    margin: 10px 0 0 20px;
+}
+nav ul{
+    float: right;
+    margin-top: 3%;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0 5px 0 5px;
+}
+nav ul li img.search_icon{
+    display: inline-block;
+    width: 20px;
+}
+
+/* MAIN */
+.main_container{
+    position: relative;
+    max-width: 1440px;
+    padding: 2em 3em;
+}
+.main_container img{
+    height: auto;
+    width: 100%;
+}
+.button{
+    position: absolute;
+    bottom: 8px;
+    right: 10%;
+    padding: 20px 40px;
+    background-color: rgb(250, 154, 154);
+    border-radius: 5px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+}
+
+/* CONTENT I */
+h1{
+    margin: 1em 0 0 1.5em;
+}
+.new {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: .8em 3em;
+}
+.p1, .p2, .p3{
+    width: 90%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.stationaries, .tote, .waterbottle{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: rgba(250, 154, 154, 0.836);
+    border-radius: 5px;
+    border: none;
+}
+.new img{
+    border-radius: 3%;
+}
+
+/* CONTENT II */
+.projects{
+    display: block;
+    overflow: auto;
+    position: relative;
+    padding: .8em 3em;
+    height: 100%;
+    width: 100%;
+}
+.projects img{
+    position: relative;
+    float: left;
+    width: 60%;
+}
+#projects_caption{
+    position: relative;
+    float: right;
+    width: 30%;
+    margin-top: 25%;
+    right: 60px;
+}
+
+/* CONTENT III */
+.images{
+    position: relative;
+    padding: 3em 3em 1em 3em;
+    display: flexbox;
+    justify-content: space-between;
+}
+.images img{
+    border-radius: 3%;
+    width: 30%;
+    padding: 0 20px 0 0;
+}
+.images_caption{
+    padding: 0 3em 5em 3em;
+}
+
+/* Footer */
+footer{
+    display: block;
+    padding: 1em 5em 2em 2em;
+    background-color: #fff1ee;
+}
+footer p{
+    padding-top: 6em;
+    font-size: 10px;
+    text-decoration: none;
+}
